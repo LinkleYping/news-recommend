@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="refresh" content="2" URL="http://127.0.0.1:5000/login/show" />
+    <title>今日新闻早知道</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/show.css"/>
+
+</head>
+<body>
+     <div id="div1"><img src="/static/img/1.jpg" /></div>
+     <h1>小仙女热点全览</h1>
+     <ul id="ul1">
+     {% for item in words %}
+         <li><a href="http://127.0.0.1:5000/login/show/news/?id={{ item }}" >{{ item }}</a></li>
+         {% endfor %}
+     </ul>
+     <h3>猜您喜欢</h3>
+     <ul id="ul2">
+         {% if interestwords=='猜不到诶~' %}
+         <li>{{ interestwords }}</li>
+         {% else %}
+             {% for i in interestwords %}
+         <li><a href="http://127.0.0.1:5000/login/show/news/?id={{ i }}">{{ i }}</a></li>
+         {% endfor %}
+         {% endif %}
+     </ul>
+</body>
+</html>

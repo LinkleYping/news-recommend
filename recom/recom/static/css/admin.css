@@ -1,0 +1,82 @@
+div#div1{
+position:fixed;
+top:0;
+left:0;
+bottom:0;
+right:0;
+z-index:-1;
+}
+div#div1 > img {
+height:100%;
+width:100%;
+border:0;
+}
+h1{
+    font-size: 50px;
+	font-family: 幼圆;
+	display: block;
+	padding-left: 500px;
+	padding-bottom: 20px;
+
+    margin-right:auto;
+	margin-left: auto;
+    color:#E27575;
+}
+.basic-grey {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 100px;
+
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+}
+.basic-grey .page{
+    float:left;
+    background-image: url("/static/img/2.gif");
+    background-size: 400px 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 150px;
+    border-bottom: 20px;
+    border-top: 20px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 华文新魏;
+    font-size: 20px;
+    color: #444444;
+}
+.basic-grey label{
+    float:right;
+    max-width: 600px;
+
+    margin-bottom: 10px;
+    margin-right: 150px;
+    border: 1px solid #E27575;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.basic-grey label>span{
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+    font-family: 华文新魏;
+    font-weight: bold;
+}
+.basic-grey .button {
+background: #E27575;
+border: none;
+padding: 10px 25px 10px 25px;
+color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+border-radius: 3px;
+text-shadow: 1px 1px 1px #9E3F3F;
+cursor: pointer;
+}

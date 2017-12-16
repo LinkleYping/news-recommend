@@ -1,0 +1,84 @@
+div#div1{
+position:fixed;
+top:0;
+left:0;
+bottom:0;
+right:0;
+z-index:-1;
+}
+div#div1 > img {
+height:100%;
+width:100%;
+border:0;
+}
+h1{
+    font-size: 40px;
+	font-family: 华文新魏;
+	display: block;
+	padding-left: 450px;
+	padding-bottom: 20px;
+
+    margin-right:auto;
+	margin-left: auto;
+    color: #888;
+}
+h3{
+    font-size: 30px;
+	font-family: 华文新魏;
+	display: block;
+	padding-left: 350px;
+    padding-bottom: 0px;
+    margin-right:auto;
+	margin-left: auto;
+    margin-top: 80px;
+    color: #E27575;
+}
+ul#ul1{
+    display: block;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-left: 450px;
+    color: #E27575;
+    list-style-type: decimal;
+}
+ul#ul1 > li {
+    font-size: 25px;
+    font-family: 华文新魏;
+    margin-bottom: 30px;
+    background-image:url("/static/img/1.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 50%;
+}
+ul#ul2{
+    display: block;
+    max-width: 300px;
+    margin-left: 400px;
+    margin-top: 0px;
+
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    color: #E27575;
+    list-style-type: none;
+}
+ul#ul2 > li{
+    width: 400px;
+    border-bottom:2px solid #888;
+    font-size: 25px;
+    font-family: 华文新魏;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-left: 50px;
+
+    padding-bottom: 2px;
+    background-image:url("/static/img/2.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 100%;
+}
+#ahref{
+    color:#888;
+}

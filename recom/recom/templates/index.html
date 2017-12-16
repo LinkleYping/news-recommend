@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/home.css"/>
+</head>
+<body >
+{% if message %}<p class="error">{{ message }}</p>{% endif %}
+
+        <div id="div1"><img src="/static/img/1.jpg" /></div>
+        <form action="" method="post" class="basic-grey">
+        <h1>login
+            <span>Please fill all the texts in the fields.</span>
+        </h1>
+
+            <label>
+            <span>UserName :</span>
+            <input id="username" type="text" name="username" placeholder="Your UserName" />
+            </label>
+
+            <label>
+            <span>PassWord :</span>
+            <input id="password" type="password" name="password" placeholder="Your PassWord" />
+            </label>
+
+            <label>
+            <span>&nbsp;</span>
+            <input type="submit" class="button" value="Submit" />
+            </label>
+        </form>
+
+</body>
+</html>

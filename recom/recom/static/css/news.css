@@ -1,0 +1,47 @@
+div#div1{
+position:fixed;
+top:0;
+left:0;
+bottom:0;
+right:0;
+z-index:-1;
+}
+div#div1 > img {
+height:100%;
+width:100%;
+border:0;
+}
+h1{
+    font-size: 40px;
+	font-family: 华文新魏;
+	display: block;
+	padding-left: 450px;
+	padding-bottom: 20px;
+
+    margin-right:auto;
+	margin-left: auto;
+    color: #888;
+}
+ul {
+    display: block;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 300px;
+    color: #E27575;
+    list-style-type: none;
+}
+ul li {
+    font-size: 25px;
+    font-family: 华文新魏;
+
+     background-image: url("/static/img/2.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#ahref{
+    color:#888;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="refresh" content="2" URL="http://127.0.0.1:5000/login/show/news/">
+    <title>新闻</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/news.css"/>
+</head>
+<body>
+     <div id="div1"><img src="/static/img/1.jpg" /></div>
+     <h1>小仙女新闻全览</h1>
+     <ul>
+     {% for item,item1 in  purls %}
+         <li><a href="{{ item1}}" id="{{ item1 }}">{{ item}}</a>
+         {% endfor %}
+     </ul>
+</body>
+</html>

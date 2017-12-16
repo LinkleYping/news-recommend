@@ -1,0 +1,54 @@
+div#div1{
+position:fixed;
+top:0;
+left:0;
+bottom:0;
+right:0;
+z-index:-1;
+}
+div#div1 > img {
+height:100%;
+width:100%;
+border:0;
+}
+
+.basic-grey {
+    margin-left: 280px;
+    margin-top: 100px;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+
+}
+h1 {
+    font-size: 40px;
+	font-family: 华文新魏;
+	display: block;
+	padding-left: 490px;
+	padding-bottom: 20px;
+    border-bottom:5px solid #E4E4E4;
+    margin-right:auto;
+	margin-left: auto;
+    margin-top: 100px;
+	color: #E27575;
+}
+.basic-grey .button {
+    opacity:0.8;
+    width: 120px;
+	margin-left: 150px;
+
+    background-image: url("/static/img/3.png");
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: center;
+    background-color: transparent;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    color:#E27575;
+    border:none;
+	border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 幼圆;
+}
+

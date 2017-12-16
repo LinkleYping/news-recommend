@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员界面</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/admin.css"/>
+</head>
+<body>
+<div id="div1"><img src="/static/img/1.jpg" /></div>
+<h1>网页管理</h1>
+<form action="" method="post" class="basic-grey">
+
+
+    <p class="page">{% for item in keyword %}
+     {{ item }}
+    {% endfor %}</p>
+
+    <label>
+        <span>中国新闻网</span>
+        <input type="submit" class="button" name="action" value="add0"/>
+        <input type="submit" class="button" name="action" value="delete0"/>
+    </label>
+
+<label>
+        <span>新华网</span>
+        <input type="submit" class="button" name="action" value="add1"/>
+        <input type="submit" class="button" name="action" value="delete1"/>
+    </label>
+<label>
+        <span>环球网</span>
+        <input type="submit" class="button" name="action" value="add2"/>
+        <input type="submit" class="button" name="action" value="delete2"/>
+    </label>
+<label>
+        <span>腾讯</span>
+        <input type="submit" class="button" name="action" value="add3"/>
+        <input type="submit" class="button" name="action" value="delete3"/>
+    </label>
+<label>
+        <span>新浪</span>
+        <input type="submit" class="button" name="action" value="add4"/>
+        <input type="submit" class="button" name="action" value="delete4"/>
+    </label>
+</form>
+
+
+</body>
+</html>
